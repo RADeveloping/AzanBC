@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18901EA4812C015406B15D43 /* Pods_AzanBC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771931E724E65C96664A0886 /* Pods_AzanBC.framework */; };
 		CB9A6E802499BE7F00D206B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9A6E7F2499BE7F00D206B3 /* AppDelegate.swift */; };
 		CB9A6E822499BE7F00D206B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9A6E812499BE7F00D206B3 /* SceneDelegate.swift */; };
 		CB9A6E842499BE7F00D206B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9A6E832499BE7F00D206B3 /* ViewController.swift */; };
 		CB9A6E872499BE7F00D206B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9A6E852499BE7F00D206B3 /* Main.storyboard */; };
 		CB9A6E892499BE8000D206B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9A6E882499BE8000D206B3 /* Assets.xcassets */; };
 		CB9A6E8C2499BE8000D206B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9A6E8A2499BE8000D206B3 /* LaunchScreen.storyboard */; };
+		CB9A6E94249ACC1700D206B3 /* PrayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9A6E93249ACC1700D206B3 /* PrayerCell.swift */; };
+		CB9A6E9724A095B700D206B3 /* yearly-prayer-time.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9A6E9624A095B700D206B3 /* yearly-prayer-time.json */; };
+		CBC0E8BE24A3F0540074C703 /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBC0E8BD24A3F0540074C703 /* fa-regular-400.ttf */; };
+		CBC0E8C024A3F54D0074C703 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC0E8BF24A3F54D0074C703 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15777A0D9D46FB173C2BC374 /* Pods-AzanBC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzanBC.debug.xcconfig"; path = "Target Support Files/Pods-AzanBC/Pods-AzanBC.debug.xcconfig"; sourceTree = "<group>"; };
+		771931E724E65C96664A0886 /* Pods_AzanBC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzanBC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9546924F58E47CF80CE7622 /* Pods-AzanBC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzanBC.release.xcconfig"; path = "Target Support Files/Pods-AzanBC/Pods-AzanBC.release.xcconfig"; sourceTree = "<group>"; };
 		CB9A6E7C2499BE7F00D206B3 /* AzanBC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzanBC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9A6E7F2499BE7F00D206B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB9A6E812499BE7F00D206B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		CB9A6E882499BE8000D206B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB9A6E8B2499BE8000D206B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB9A6E8D2499BE8000D206B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9A6E93249ACC1700D206B3 /* PrayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerCell.swift; sourceTree = "<group>"; };
+		CB9A6E9624A095B700D206B3 /* yearly-prayer-time.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "yearly-prayer-time.json"; sourceTree = "<group>"; };
+		CBC0E8BD24A3F0540074C703 /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-regular-400.ttf"; sourceTree = "<group>"; };
+		CBC0E8BF24A3F54D0074C703 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18901EA4812C015406B15D43 /* Pods_AzanBC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CA3592BAD126CCDD78A7FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				771931E724E65C96664A0886 /* Pods_AzanBC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D563CC98098E0E7EC89FBF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15777A0D9D46FB173C2BC374 /* Pods-AzanBC.debug.xcconfig */,
+				B9546924F58E47CF80CE7622 /* Pods-AzanBC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB9A6E732499BE7F00D206B3 = {
 			isa = PBXGroup;
 			children = (
 				CB9A6E7E2499BE7F00D206B3 /* AzanBC */,
 				CB9A6E7D2499BE7F00D206B3 /* Products */,
+				5D563CC98098E0E7EC89FBF2 /* Pods */,
+				2CA3592BAD126CCDD78A7FF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,27 @@
 		CB9A6E7E2499BE7F00D206B3 /* AzanBC */ = {
 			isa = PBXGroup;
 			children = (
+				CB9A6E9524A095AC00D206B3 /* Resources */,
 				CB9A6E7F2499BE7F00D206B3 /* AppDelegate.swift */,
 				CB9A6E812499BE7F00D206B3 /* SceneDelegate.swift */,
 				CB9A6E832499BE7F00D206B3 /* ViewController.swift */,
+				CB9A6E93249ACC1700D206B3 /* PrayerCell.swift */,
 				CB9A6E852499BE7F00D206B3 /* Main.storyboard */,
+				CBC0E8BF24A3F54D0074C703 /* ImageCollectionViewCell.swift */,
 				CB9A6E882499BE8000D206B3 /* Assets.xcassets */,
 				CB9A6E8A2499BE8000D206B3 /* LaunchScreen.storyboard */,
 				CB9A6E8D2499BE8000D206B3 /* Info.plist */,
 			);
 			path = AzanBC;
+			sourceTree = "<group>";
+		};
+		CB9A6E9524A095AC00D206B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBC0E8BD24A3F0540074C703 /* fa-regular-400.ttf */,
+				CB9A6E9624A095B700D206B3 /* yearly-prayer-time.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +118,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB9A6E902499BE8000D206B3 /* Build configuration list for PBXNativeTarget "AzanBC" */;
 			buildPhases = (
+				3E60C19A3A0F0C306A21E3E7 /* [CP] Check Pods Manifest.lock */,
 				CB9A6E782499BE7F00D206B3 /* Sources */,
 				CB9A6E792499BE7F00D206B3 /* Frameworks */,
 				CB9A6E7A2499BE7F00D206B3 /* Resources */,
@@ -126,6 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9A6E8C2499BE8000D206B3 /* LaunchScreen.storyboard in Resources */,
+				CBC0E8BE24A3F0540074C703 /* fa-regular-400.ttf in Resources */,
+				CB9A6E9724A095B700D206B3 /* yearly-prayer-time.json in Resources */,
 				CB9A6E892499BE8000D206B3 /* Assets.xcassets in Resources */,
 				CB9A6E872499BE7F00D206B3 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +180,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E60C19A3A0F0C306A21E3E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzanBC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB9A6E782499BE7F00D206B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CB9A6E842499BE7F00D206B3 /* ViewController.swift in Sources */,
+				CBC0E8C024A3F54D0074C703 /* ImageCollectionViewCell.swift in Sources */,
 				CB9A6E802499BE7F00D206B3 /* AppDelegate.swift in Sources */,
+				CB9A6E94249ACC1700D206B3 /* PrayerCell.swift in Sources */,
 				CB9A6E822499BE7F00D206B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +356,7 @@
 		};
 		CB9A6E912499BE8000D206B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15777A0D9D46FB173C2BC374 /* Pods-AzanBC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +375,7 @@
 		};
 		CB9A6E922499BE8000D206B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9546924F58E47CF80CE7622 /* Pods-AzanBC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
